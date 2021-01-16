@@ -8,3 +8,12 @@ def test(request):
 
 def second(request):
     return HttpResponse("test 2 page")
+
+def third(request):
+    return render(request, "test3.html")
+
+def fourth(request):
+    return render(request, "text.html")
+
+def fives(request):
+    return render(request, "text2.html")
