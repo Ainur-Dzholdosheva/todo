@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: blue;
+    background-color: darksalmon;
+}
+p{
+    color: brown;
+    font-size: 20px;
+}
