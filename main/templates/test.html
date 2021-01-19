@@ -34,7 +34,7 @@
                         {% if todo.is_closed %}
                         checked
                         {% endif %}
-                        >
+                        />
                         <span class="checkmark"></span>
                     </label>
                     <h4><a href="{% url 'close-todo' todo.id %}">{{ todo.test }}</a></h4>
